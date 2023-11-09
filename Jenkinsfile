@@ -6,7 +6,6 @@ pipeline {
                 echo 'Building the project...'
                 sh 'ls'
                 sh 'touch sample.txt'
-                sh 'mv sample.txt build/'
             }
         }
         stage('Test') {
