@@ -12,7 +12,6 @@ pipeline {
             steps {
                 echo 'Running tests...'
                 sh 'pwd'
-                sh 'ls build/'
             }
         }
         stage('Deploy') {
